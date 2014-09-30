@@ -1,0 +1,17 @@
+
+@media screen and (min-width: $tablet-breakpoint) {
+	.info-slide {
+		transform: translatey(100%);
+		-webkit-transition: 0.33s ease-out;
+		transition: 0.33s ease-out;
+	}
+	.tile-active:hover ~ .slide-active,
+	.tile-passive:hover ~ .slide-passive,
+	.slide-active:hover,
+	.slide-passive:hover {
+			-webkit-transform: translatey(0);
+			transform: translatey(0);
+	    	-webkit-transition: 0.33s ease-out;
+			transition: 0.33s ease-out;
+	}
+}

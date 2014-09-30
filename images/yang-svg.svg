@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="90px" height="120px" viewBox="0 0 90 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8053) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Ying-Yang-3" sketch:type="MSArtboardGroup" transform="translate(-421.000000, -441.000000)" fill="#4E4343">
+            <g id="Yin-Yang-2" sketch:type="MSLayerGroup" transform="translate(421.000000, 441.000000)">
+                <g id="Yang" sketch:type="MSShapeGroup">
+                    <path d="M60,-4.92061645e-08 C60,-4.92061645e-08 90,-4.92066441e-08 90,30 C90,60 60,60 60,60 C60,60 30,60 30,90 C30,120 60,120 60,120 C60,120 2.66453526e-15,120.375 -4.16333634e-17,60 C2.66453526e-15,-4.92061645e-08 60,-4.92061645e-08 60,-4.92061645e-08 Z M60,37.5 C64.1421356,37.5 67.5,34.1421356 67.5,30 C67.5,25.8578644 64.1421356,22.5 60,22.5 C55.8578644,22.5 52.5,25.8578644 52.5,30 C52.5,34.1421356 55.8578644,37.5 60,37.5 Z" id="Path-19"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

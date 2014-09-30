@@ -1,0 +1,265 @@
+$icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+/* Partials 
+========================== */
+@import 'partials/_fonts.scss';
+@import 'partials/_palette.scss';
+@import 'partials/_animation.scss';
+
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    background-color: $main-bg;
+    color: #fff;
+    text-align: center;
+    font-family: $paragraph-font;
+    font-weight: 300;
+    font-size: 22px;
+}
+.container-secondary {
+    background: $secondary-bg;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.row {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    max-width: 1438px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    .header-image {
+        width: 100%;
+    }
+    .main-logo {
+        margin: auto;
+        left: 0;
+        right: 0;
+        bottom: 40px;
+        @media screen and (min-width: $tablet-breakpoint) {
+            position: absolute;
+        }
+        @media screen and (max-width: $tablet-breakpoint) {
+            width: 80%;
+            margin-top: 10%;
+        }
+    }
+}
+.heading {
+    h2 {
+        font-family: $heading-font;
+        font-size: 2.25em;
+        margin-bottom: 40px;
+    }
+}
+.title {
+    display: none;
+}
+.intro-container {
+    .intro-text {
+        font-size: 1.25em;
+        font-family: $heading-font;
+    }
+}
+.hr {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.support-text {
+    font-family: $heading-font;
+    font-style: italic;
+    font-weight: 300;
+}
+.indiegogo-heading {
+    margin-top: 0;
+}
+.frame {
+    padding: 20px;
+    border: thick solid #5F5D5D;
+    border-radius: 10px;
+    background: #fff;
+    margin: 40px 10px 20px 10px;
+    @media screen and (min-width: 768px) {
+        margin: 20px 120px 20px 120px;
+    }
+}
+.btn-contribute {
+    width: 225px;
+    height: 60px;
+    background: #DFE28D;
+    color: #fff;
+    font-family: $heading-font;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    &:hover {
+        color: #fff;
+        background: #159BDE;
+    }
+}
+/* Isolation Tanks Section 
+=========================== */
+.isolation-tanks-text {
+    text-align: left;
+    margin-left: 20px;
+}
+.carousel-wrapper {
+    padding-right: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #2BB38A;
+    @media screen and (min-width: $tablet-breakpoint) {
+        border-radius: 10px 0 0 10px;
+    }
+}
+.carousel {
+    padding: 40px 0 40px 40px;
+    background: #fff;
+    border-radius: 10px 0 0 10px;
+    float: none;
+}
+.carousel-indicators {
+    bottom: -40px;
+    left: 8%;
+}
+ /* Sliders 
+ ======================= */
+.slider-container {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 350px;
+    position: relative;
+    .slider {
+        max-width: 700px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+        @media screen and (min-width: $tablet-breakpoint) {
+            position: absolute;
+            .tile-image {
+                float: left;
+            }
+            .tile-icon {
+                position: absolute;
+                bottom: 12%;
+                z-index: 2;
+                opacity: 0.75;
+                width: 140px;
+                height: auto;
+            }
+            .icon-left {
+                left: 14%;
+            }
+            .icon-right {
+                right: 14%;
+            }
+        }
+    }
+    .info-slide {
+        /* Animation CSS in animation partial file */
+        border-top: thin solid #fff;
+        background: $main-bg;
+        max-width: 350px;
+        height: 350px;
+        padding: 16% 5% 0;
+        text-align: left;
+        z-index: 2;
+        margin: auto;
+        @media screen and (min-width: $tablet-breakpoint) {
+            position: absolute;
+        }
+        @media screen and (max-width: $tablet-breakpoint) {
+            margin-top: -55px;
+            margin-bottom: 40px;
+        }
+    }
+    .slide-passive {
+        right: 0;
+    }
+    .slide-secondary-bg {
+        background: $secondary-bg;
+    }
+    @media screen and (min-width: $tablet-breakpoint) {
+        .slide-title {
+            position: absolute;
+            top: 5%;
+            z-index: 3;
+        }
+        .active-title {
+            left: 19%;
+        }
+        .passive-title {
+            right: 19%;
+        }
+        .chaz-title {
+            left: 16%;
+        }
+        .tai-title {
+            right: 16%;
+        }
+    }
+}
+.overlay-active,
+.overlay-passive,
+.overlay-logo {
+        position: absolute;
+        top: 0;
+        width: 50%;
+        height: 100%;
+        z-index: 2;
+        background: rgba(52,148,159,0.5);
+    }
+.overlay-active {
+    left: 0;
+}
+.overlay-passive {
+    right: 0;
+}
+.overlay-logo {
+    width: 100%;
+    opacity: .7;
+}
+.footer {
+    background: #fff;
+    color: #000;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    a,
+    a:hover {
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+
+/* Responsive: Portrait tablets and up 
+=========================== */
+@media screen and (min-width: $tablet-breakpoint) {
+    .container {
+        max-width: 1438px;
+    }
+}
+/* Responsive: Portrait tablets and down 
+=========================== */
+@media screen and (max-width: $tablet-breakpoint) {
+}
+
+
+
